@@ -1,4 +1,8 @@
-#Zooooo  in America
+# Zooooo  in America
+
+#### The prices below are for the areas you will need a Eintritt + some areas, if you have a car you´ll need a parking ticket too. If you want to do some special activity you need to buy them sepatly
+
+
 
 
 
@@ -13,20 +17,22 @@
 | Meereswelt                   |       7,5|
 
 
-
-StreichelGehäge Zigenfutter    ==       2
-
-
-ParkplatzGrundgebürh           ==       5,5|
-
-
-Eintrit Pauschalt Erwachsesn   ==       3,5
-Eintrit Pauschalt Kinder u10   ==       free
-Eintrit Pauschalt Ermäßigt*    ==       1,5
+|Activity in The Zoo|Price in Euro|
+|---------------|-----------------|
+|StreichelGehäge Zigenfutter    |       2|
+|Orca Show|7|
 
 
 
+|Eintrit + Anreise|Price in Euro|
+|---------------|-----------------|
+|Eintrit Pauschalt Erwachsesn   |       3,5|
+|Eintrit Pauschalt Kinder u10   |       free|
+|Eintrit Pauschalt Ermäßigt*    |       1,5|
+|ParkplatzGrundgebürh           |       5,5|
 
 
 
-Ermäßigt* Es wird ein Gültiger Schülerausweis benötigt 
+
+
+######## Ermäßigt* Es wird ein Gültiger Schülerausweis benötigt 
