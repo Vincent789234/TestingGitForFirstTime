@@ -14,6 +14,8 @@ public class GitHubTestProjeckt {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
+        figgo
         // TODO code application logic here
     }
     
