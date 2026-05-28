@@ -35,4 +35,4 @@
 
 
 
-######## Ermäßigt* Es wird ein Gültiger Schülerausweis benötigt 
+###### Ermäßigt* Es wird ein Gültiger Schülerausweis benötigt 
