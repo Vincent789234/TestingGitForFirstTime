@@ -15,7 +15,7 @@ public class GitHubTestProjeckt {
      */
     public static void main(String[] args) {
         
-        figgo
+        figgo1234
         // TODO code application logic here
     }
     
