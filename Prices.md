@@ -1,10 +1,13 @@
-- Eurasien                     ==       5
-- Afrika                       ==       6
-- Nordamerika                  ==       3
-- Südamerika                   ==       4
-- Australien und Ozeanien      ==       7
-- tropisches Zentrum           ==       4
-- Meereswelt                   ==       7,5
+
+|Activity|Price|
+|---------------|-----------------|
+| Eurasien                     |       5|
+| Afrika                       ==       6
+| Nordamerika                  ==       3
+| Südamerika                   ==       4
+| Australien und Ozeanien      ==       7
+| tropisches Zentrum           ==       4
+| Meereswelt                   ==       7,5
 
 StreichelGehäge Zigenfutter    ==       2
 
