@@ -1,5 +1,8 @@
+#Zooooo  in America
 
-|Places Around the World|Price|
+
+
+|Places Around the World|Price in Euro|
 |---------------|-----------------|
 | Eurasien                     |       5|
 | Afrika                       |       6|
