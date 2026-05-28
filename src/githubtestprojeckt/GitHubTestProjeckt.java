@@ -18,6 +18,7 @@ public class GitHubTestProjeckt {
         for (int i = 0;i < 10;i++) {
             System.out.print(i);
             System.out.print(i+1);
+            //hallo vinci
         }
         // TODO code application logic here
     }
