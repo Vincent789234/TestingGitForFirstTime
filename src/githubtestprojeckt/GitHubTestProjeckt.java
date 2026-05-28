@@ -15,7 +15,9 @@ public class GitHubTestProjeckt {
      */
     public static void main(String[] args) {
         
-        figgo1234
+        for (int i = 0;i < 10;i++) {
+            System.out.print(i);        
+        }
         // TODO code application logic here
     }
     
