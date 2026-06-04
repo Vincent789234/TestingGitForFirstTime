@@ -4,26 +4,24 @@
  */
 package githubtestprojeckt;
 
-/**
- *
- * @author 14257009
- */
-public class GitHubTestProjeckt {
+import java.util.Scanner;
 
+
+
+
+public class GitHubTestProjeckt {
+    
+    
+    
+    
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
-        for (int i = 0;i < 10;i++) {
-            System.out.print(i);
-            lol digga figga
-            
-            
-            System.out.print(i+1);
-            //hallo vinci
-        }
-        // TODO code application logic here
+        VisitorPriceCalc Calc = new VisitorPriceCalc();
     }
+    
+    
+    
     
 }
