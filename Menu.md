@@ -1,15 +1,24 @@
 Hallo Zoobesucher
 
-Eintritt
+Anzahl der personen
+  -???
+
+Eintritt(wird bezahlt pro person)
 1  -Pauschale Erwachsen
 2  -Pauschale Kind(u10)
-3 -Pauschale Ermäßigt
+3  -Pauschale Ermäßigt
 
-ParkplatzGebühr
+ParkplatzGebühr(pro Auto)
   -JA
   -NEIN
 
-Themenwelten 
+  Wie viele Autos
+    -???
+
+  Ihre Gruppen Nummer lautet
+    -???
+
+Themenwelten(wird auf gesammte Gruppe abgerechnet)
 1 - Eurasien
 2 - Afrika
 3 - Nordamerica
@@ -21,3 +30,6 @@ Themenwelten
 Zusatz Aktivitäten 
   -Streichel Gehäge/Ziegenfutter
   -Orca Show
+
+GEsammt Preis
+  -???
