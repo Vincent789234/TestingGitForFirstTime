@@ -12,12 +12,13 @@ import java.util.Scanner;
  */
 public class VisitorPriceCalc {
     Scanner scan = new Scanner(System.in);
-    
-    
+    double CurrentPrice;
+    int NumberOfVisitors;
     
     VisitorPriceCalc () {
         Menu();    
-    
+        CurrentPrice = 0;
+        NumberOfVisitors = 0;
     }
     
     
@@ -27,8 +28,27 @@ public class VisitorPriceCalc {
         
         int ChoosenOption;
         
+        System.out.println("How many peoples are you ??");
         
-        System.out.print("ABC");
+        
+        NumberOfVisitors = scan.nextInt();
+        
+        
+        
+        
+        
+        
+        
+        
+        System.out.print("""
+        Hallo Zoobesucher
+                         
+        Eintritt
+            1  -Pauschale Erwachsen
+            2  -Pauschale Kind(u10)
+            3 -Pauschale Ermäßigt
+                               
+        """);
         
         
         
