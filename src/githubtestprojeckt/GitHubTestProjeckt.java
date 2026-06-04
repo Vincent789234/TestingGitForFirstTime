@@ -17,6 +17,9 @@ public class GitHubTestProjeckt {
         
         for (int i = 0;i < 10;i++) {
             System.out.print(i);
+            lol digga figga
+            
+            
             System.out.print(i+1);
             //hallo vinci
         }
