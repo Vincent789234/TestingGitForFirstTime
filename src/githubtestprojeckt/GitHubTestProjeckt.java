@@ -19,6 +19,7 @@ public class GitHubTestProjeckt {
      */
     public static void main(String[] args) {
         VisitorPriceCalc Calc = new VisitorPriceCalc();
+        
     }
     
     

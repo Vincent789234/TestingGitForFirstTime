@@ -22,10 +22,13 @@ public class VisitorPriceCalc {
     
     
     VisitorPriceCalc () {
-        Menu();    
         CurrentPrice = 0;
         NumberOfVisitors = 0;
         NumberOfCars = 0;
+        Menu();    
+        
+        
+        System.out.println("Total Price:\n"+this.CalculateTotalPrice());
     }
     
     
@@ -40,20 +43,20 @@ public class VisitorPriceCalc {
         System.out.println("How many peoples are you ??");
         
         
-        NumberOfVisitors = scan.nextInt();
+        this.NumberOfVisitors = scan.nextInt();
         
-        for (int i = 0;i < NumberOfVisitors;i++) {
+        for (int i = 0;i < this.NumberOfVisitors;i++) {
             Visitors.add(new Visitor());
         }
         
         
         System.out.println("And with how many cars did you park in our Parking Garage ??");
         
-        NumberOfCars = scan.nextInt();
+        this.NumberOfCars = scan.nextInt();
         
         
         
-        for (int i = 0;i < NumberOfVisitors;i++) {
+        for (int i = 0;i < this.NumberOfVisitors;i++) {
             
             
             System.out.print("Person "+ (i+1) + ":\n");
@@ -124,14 +127,10 @@ public class VisitorPriceCalc {
         
         Options = scan.next();
             
-        String[] parts = Options.split(",");
-        for (String part : parts) {
-            SpecialActvy.add(Integer.parseInt(part));
+        String[] FullInput = Options.split(",");
+        for (String OnlyOneOption : FullInput) {
+            SpecialActvy.add(Integer.parseInt(OnlyOneOption));
         }
-        
-        
-        
-        
         
         
         
@@ -143,9 +142,26 @@ public class VisitorPriceCalc {
     
     
     
-    float CalculateTotalPrice() {
-    
-    
-    
+    double CalculateTotalPrice() {
+        
+        
+        CurrentPrice = CurrentPrice + (5.5*this.NumberOfCars);
+        
+        
+        for (int i = 0;i < this.NumberOfVisitors;i++) {
+            CurrentPrice = CurrentPrice + Visitors.get(0).GivePriceBack();
+
+        }
+        
+        for (int i = 0;i < SpecialActvy.size();i++) {
+        
+        }
+        
+        
+        
+        
+        
+        
+        return CurrentPrice;
     } 
 }
