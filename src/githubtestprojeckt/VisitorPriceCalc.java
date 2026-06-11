@@ -153,8 +153,44 @@ public class VisitorPriceCalc {
 
         }
         
-        for (int i = 0;i < SpecialActvy.size();i++) {
         
+        //Check if any Number are Redundent
+        for (int i = 0;i < 7;i++) {
+            boolean NumberExists = false;
+            for (int j = 0;j < SpecialActvy.size();j++) {
+                if (NumberExists == true && i == SpecialActvy.get(j)) {
+                    SpecialActvy.remove(j);
+                    System.out.print("Tried"+j+"\n");
+                }
+                else if (i == SpecialActvy.get(j)) {
+                    NumberExists = true;
+                }
+                 
+            } 
+        }
+        
+        
+        
+        
+        /*
+        for (int i = 0;i < SpecialActvy.size();i++) {
+            for (int j = 0;j < SpecialActvy.size();j++) {
+                if ((SpecialActvy.get(i) == SpecialActvy.get(j)) && (j != i)) {
+                    SpecialActvy.remove(j);
+                }
+            }    
+        }
+        */
+        
+        
+        System.out.print("Output:\n");
+        for (int i = 0;i < SpecialActvy.size();i++) {
+            
+            
+            
+            
+            
+            System.out.print(SpecialActvy.get(i)+"\n");
         }
         
         
