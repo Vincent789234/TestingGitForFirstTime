@@ -157,14 +157,33 @@ public class VisitorPriceCalc {
         //Check if any Number are Redundent
         for (int i = 0;i < 7;i++) {
             boolean NumberExists = false;
+            
             for (int j = 0;j < SpecialActvy.size();j++) {
-                if (NumberExists == true && i == SpecialActvy.get(j)) {
-                    SpecialActvy.remove(j);
-                    System.out.print("Tried"+j+"\n");
+                
+                while (true) {
+                    if (SpecialActvy.size() > j) {
+                        if (i == SpecialActvy.get(j)) {
+                            if (NumberExists == true && i == SpecialActvy.get(j)) {
+                                SpecialActvy.remove(j);
+                                //System.out.print("Tried"+j+"\n");
+                            }
+                            else if (i == SpecialActvy.get(j)) {
+                                NumberExists = true;
+                                break;
+                            } 
+                            else {
+                                break;
+                            }
+                        }
+                        else {
+                            break;
+                        }
+                    }
+                    else {
+                        break;
+                    }
                 }
-                else if (i == SpecialActvy.get(j)) {
-                    NumberExists = true;
-                }
+                
                  
             } 
         }
@@ -183,14 +202,40 @@ public class VisitorPriceCalc {
         */
         
         
-        System.out.print("Output:\n");
+        
+        boolean OnlySpecialActivity = false;
         for (int i = 0;i < SpecialActvy.size();i++) {
-            
-            
-            
-            
-            
-            System.out.print(SpecialActvy.get(i)+"\n");
+            if (SpecialActvy.get(i) == 0) {
+                OnlySpecialActivity = true;
+            }
+        }
+        
+        if (OnlySpecialActivity == true) {
+            for (int i = 0;i < SpecialActvy.size();i++) {
+                switch(SpecialActvy.get(i)) {
+                    case 1:
+                        CurrentPrice = CurrentPrice + 5;
+                        break;
+                    case 2:
+                        CurrentPrice = CurrentPrice + 6;
+                        break;
+                    case 3:
+                        CurrentPrice = CurrentPrice + 3;
+                        break;
+                    case 4:
+                        CurrentPrice = CurrentPrice + 4;
+                        break;
+                    case 5:
+                        CurrentPrice = CurrentPrice + 7;
+                        break;    
+                    case 6:
+                        CurrentPrice = CurrentPrice + 4;
+                        break;
+                    case 7:
+                        CurrentPrice = CurrentPrice + 7.5;
+                        break;
+                }
+            }
         }
         
         
